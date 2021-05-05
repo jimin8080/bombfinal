@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bomb Your Enemies</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		html{font-family: 'Noto Sans KR', sans-serif;}	
+
+		body, h1, p, ul{margin: 0;}
+		header{}
+		section{}
+		footer p{text-align: center; }
+		footer{height: 200px;
+			font-size: 0.8em;
+			line-height: 2; 
+			font-weight: 200; 
+			word-spacing: -1px; 
+			color: white}
+		img{width: 100%; margin: auto;}
+
+		.tt{animation: infinite linear;}
+
+		.a {animation-name: aa;
+			animation-duration: 25s;}
+
+		@keyframes aa{
+			to{background-position: -3000px 0px;}}
+
+
+		.b {animation-name: bb;
+			animation-duration: 10s;}
+
+		@keyframes bb{
+			to{background-position: -5000px 0px;}}
+
+
+		.col-1{width: 90px; margin: 0px 5px;}
+		.col-3{width: 190px; margin: 0px 5px;}
+		.col-2{width: 290px; margin: 0px 5px;}
+		.col-4{width: 390px; margin: 0px 5px;}
+		.col-5{width: 490px; margin: 0px 5px;}
+		.col-6{width: 590px; margin: 0px 5px;}
+
+		.row1{height: 70px;
+			margin: auto;
+			display: flex; 
+			padding: 0px 5px;
+			margin-bottom: 0px;}
+
+		.row2{width: 600px; height: 700px;
+			margin: auto;
+			display: flex; 
+			padding: 0px 5px;
+			margin-bottom: 20px;}
+
+		.row3{width: 600px; height: 500px;
+			margin: auto;
+			display: flex; 
+			padding: 0px 5px;
+			margin-top: 380px;}
+
+		.row4{width: 600px; 
+			margin: auto;
+			display: flex; 
+			padding: 0px 5px;}
+
+		.row5{width: 900px; 
+			margin: auto;
+			display: flex; 
+			padding: 0px 5px;}
+
+		.row6{width: 600px; height: 150px;
+			margin: auto;
+			display: flex; 
+			padding: 0px 5px;
+			margin-bottom: 20px;
+			display: flex;
+			justify-content: center;
+			margin-top: 5px;}
+
+		.row7{width: 900px; 
+			margin: auto;
+			display: flex; 
+			flex-wrap: wrap;
+			padding: 0px 5px;}
+
+		.text-white{color: white;
+			margin-top: 100px;
+			word-break: keep-all;
+			font-size: 1.3em;
+			line-height: 1.6;
+			letter-spacing: -1px;
+			font-weight: 300}
+
+		.text-red{color: red;
+			margin-top: 100px;
+			word-break: keep-all;
+			font-size: 1.3em;
+			line-height: 1.6;
+			letter-spacing: -1px;
+			font-weight: 400}
+
+		.text-align-center{text-align: center;}
+
+
+
+		.bg-none{background: none;}
+		.bg-black{background: black;}
+		.bg-white{background: white;}
+
+		.headimg{height: 100px,margin:auto;}
+
+		.bombtitle-img{background: url('1.png');
+			background-size: 100% auto;
+			background-attachment: fixed; } 
+
+		.title-img{background: url('2.png');
+			background-size: 100% auto;
+			position: absolute;
+			display: flex;
+			justify-content: center;}
+
+		
+		
+
+	</style>
+</head>
+
+
+
+<body class="bg-black">
+	<header>
+		<div class="bombtitle-img a row1 tt"></div>
+		<div class="bombtitle-img b row1 tt"></div>
+
+		<div class="row1 headimg">
+			<img src="3.png" style="width: 100%; margin: auto; position: absolute;">
+				<div class="row2">
+					<div class="title-img row3"></div></div>
+		</div>
+
+	/*태그 오른쪽*/
+		<div>
+			<img src="8.png"
+			style="background-size: 200% auto;
+			width: 349px; height: 490px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: 1000px; right: 80px;">
+		</div>
+
+	/*태그 왼쪽*/
+		<div>
+			<img src="21.png"
+			style="background-size: 200% auto;
+			width: 349px; height: 490px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: 1850px; left: 100px;">
+		</div>
+	</header>
+
+	<section>
+		<div>
+			<img src="4.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 750px;">
+		</div>
+		
+		<div class="row5">
+			<img src="6.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 60px;">
+		</div>
+
+		<div class="row5">
+			<div class="col-6">
+				<h1 class="text-red" style="margin-top: 70px;">
+					오늘도 화나는 상황에서 막상 어찌할지 몰라 참고 넘어가시나요? </br>
+					하지만 더 이상 참지말고 그 자식에게 잊지못할 폭탄을 선물해보세요. </br>
+					온통 난리난 주변을 보며 어쩔 줄 몰라하는 모습이 장관이랍니다.</h1>
+			</div>
+		</div>
+
+
+	/*가격표 이미지*/
+		<div class="row5">
+			<img src="7.png"
+			style="position:relative;
+			left: 40%; right: 0;
+			width: 370px; 
+			height: 560px;
+			margin-top: 100px;">
+		</div>
+
+	/*불타는 이미지*/
+		<div class="row6">
+			<img src="22.png" 
+			style="background-size: 100% auto;
+			margin: auto; 
+			display: flex;
+			position: absolute; 
+			justify-content: center;
+			margin-top: 230px;">
+
+	/*세가지 이미지 나란히*/
+				<div class="row5" style="justify-content: center; margin-top: 400px; z-index: 3000;">
+					<div class="col-2"> <img src="9.png"  style="background-size: 100% auto; width: 244px; height: 459px;"> </div>
+					<div class="col-2"> <img src="10.png" style="background-size: 100% auto; width: 244px; height: 459px;"> </div>
+					<div class="col-2"> <img src="11.png" style="background-size: 100% auto; width: 244px; height: 459px;"> </div>
+				</div>
+		</div>
+		
+	
+	/*설명 글 아마자*/
+		<div class="row5">
+			<img src="12.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 1050px;">
+		</div>
+	
+	/*글리터 밤 제목*/
+		<div class="row5">
+			<img src="13.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 300px;
+			z-index: 3000">
+		</div>
+
+	/*태그 오른쪽*/
+		<div style="position: relative;"> 
+			<img src="8.png"
+			style="background-size: 200% auto;
+			width: 349px; height: 490px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: -450px; right: 130px;">
+		</div>
+
+	/*태그 왼쪽*/
+		<div style="position: relative;"> 
+			<img src="21.png"
+			style="background-size: 200% auto;
+			width: 349px; 
+			height: 490px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: -700px; left: 180px;">
+		</div>
+
+
+	/*빨간 화살표*/
+		<div> 
+			<img src="14.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 10px;">
+		</div>
+
+	/*복수하고 싶은 그 자식이 떠오른다면*/
+		<div class="row5">
+			<img src="15.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 120px;">
+		</div>
+
+	 /*글*/
+		<div class="row6">
+			<div class="col-6 text-align-center">
+				<h1 class="text-white" style="margin-top: 50px;">
+					제품을 구입하신 후 택배를 받으실 주소를 적어주시면 </br>
+					주소 앞으로 반짝이가 가득한 폭탄 박스가 도착합니다 </br>
+					복수하고 싶은 사람에게 잊지못할 쓰레기 폭탄을 선사해주세요 </br></h1>
+			</div>
+		</div>
+	
+	/*작은 빨간 화살표*/
+		<div class="row5"> 
+			<img src="20.png"
+			style="background-size: 100% auto;
+			width:241px; height: 91px;
+			display: flex;
+			justify-content: center;
+			margin-top: 80px;">
+		</div>
+
+	/*박스 이미지*/
+		<div class="row6">
+			<img src="19.png" 
+			style="background-size: 100% auto;
+			width: 1110px; height: 1140px;
+			margin: auto; 
+			display: flex;
+			position: absolute; 
+			justify-content: center;
+			margin-top: 5px;">
+
+	/*박스 이미지 위 세가지 나란히*/
+				<div class="row5" style="justify-content: center; margin-top: 190px; z-index: 3000;">
+					<div class="col-3"> <img src="16.png"> </div>
+					<div class="col-3"> <img src="17.png"> </div>
+					<div class="col-3"> <img src="18.png"> </div>
+				</div>
+		</div>
+
+		
+
+		
+	/*태그 오른쪽*/
+		<div style="position: relative;"> 
+			<img src="8.png"
+			style="background-size: 200% auto;
+			width: 349px; height: 490px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: 1190px; right: 10px;">
+		</div>
+
+	/*오늘이 무슨날인가-글*/
+		<div> 
+			<img src="25.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 1150px;">
+		</div>
+
+	/*오늘이 무슨날인가-이미지*/
+		<div class="row5"> 
+			<img src="28.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;">
+		</div>
+		
+		
+	/*태그 왼쪽*/
+		<div style="position: relative;"> 
+			<img src="21.png"
+			style="background-size: 200% auto;
+			width: 349px; 
+			height: 490px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: -310px; left: 10px;">
+		</div>
+
+
+	/*태그 왼쪽*/
+		<div style="position: relative;"> 
+			<img src="32.png"
+			style="background-size: 200% auto;
+			width: 544px; 
+			height: 1347px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: 150px; left: 0px;">
+		</div>
+
+	/*태그 오른쪽*/
+		<div style="position: relative;"> 
+			<img src="33.png"
+			style="background-size: 200% auto;
+			width: 545px; 
+			height: 1124px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: 150px; right: 0px;">
+		</div>
+
+		
+
+	/*무슨 선물인지-글*/
+		<div> 
+			<img src="26.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 100px;">
+		</div>
+
+	/*무슨 선물인지-이미지*/
+		<div class="row5">
+			<img src="29.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;">
+		</div>
+
+		
+
+
+	/*태그 오른쪽*/
+		<div style="position: relative;"> 
+			<img src="44.png"
+			style="background-size: 200% auto;
+			width: 349px; height: 490px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: 300px; right: 0px;">
+		</div>
+
+	/*사탕인줄 알고-글*/
+		<div> 
+			<img src="27.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 100px;">
+		</div>
+
+	/*사탕인줄 알고-이미지*/
+		<div class="row5">
+			<img src="30.png"
+			style="background-size: 100% auto;
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;">
+		</div>
+	
+
+	/*태그 왼쪽*/
+		<div style="position: relative;"> 
+			<img src="31.png"
+			style="background-size: 200% auto;
+			width: 351px; 
+			height: 752px;
+			display: flex;
+			margin-top: 60px;
+			position: absolute;
+			top: -660px; left: 0px;">
+		</div>
+		
+		<div class="row6"> 
+			<img src="23.png" 
+			style="background-size: 100% auto;
+			margin: auto; 
+			display: flex;
+			position: absolute; 
+			justify-content: center;
+			margin-top: 250px;">
+
+			<div class="row7" style="justify-content: center; margin-top: 380px; z-index: 9000;">
+						<div class="col-3"> <img src="34.png"> </div>
+						<div class="col-3"> <img src="35.png"> </div>
+			</div>
+		
+			<div class="row7" style="justify-content: center; margin-top: 380px; z-index: 9000;">
+						<div class="col-3"> <img src="36.png"> </div>
+						<div class="col-3"> <img src="37.png"> </div>
+			</div>
+
+			<div class="row7" style="justify-content: center; margin-top: 380px; z-index: 9000;">
+						<div class="col-3"> <img src="38.png"> </div>
+						<div class="col-3"> <img src="39.png"> </div>	
+			</div>
+
+			<div class="row7" style="justify-content: center; margin-top: 380px; z-index: 9000;">
+						<div class="col-3"> <img src="40.png"> </div>
+						<div class="col-3"> <img src="41.png"> </div>	
+			</div>
+
+			<div class="row7" style="justify-content: center; margin-top: 380px; z-index: 9000;">
+						<div class="col-3"> <img src="42.png"> </div>
+						<div class="col-3"> <img src="43.png"> </div>	
+			</div>
+		</div>
+
+		
+ 		
+ 		<div class="row5" style="margin-top: 1100px;"></div>
+	</section>
+
+	<footer>
+		<div class="row6">
+			<div class="col-6 text-align-center">
+				<h1 class="text-white" style="margin-top: 50px;">
+					지금까지 꿈꾸었던 완벽한 복수의 통쾌함을 느껴보세요</br>
+					제품을 사용시 일어나는 모든 불미스러운 일들은 당사가 책임지지 않습니다 </br></br></br>
+					당신의 복수를 언제나 이루어주는 </br>
+					REVENGE Ⓒ</br></br></br></br></br></h1>
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
